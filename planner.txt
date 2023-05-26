@@ -1,0 +1,41 @@
+Website sections:
+  - Home page:
+    - nav bar : (logo - sections-links)
+    - header: (info - image - animation(typewriter-effect) - Resume)
+  
+  - About:
+    - info box: (skills - Education - Certificates - history)
+    - image box: (image with border)
+
+  - Projects:
+    - card: (title - Keywords - info - demo-links)
+
+  - other Acheivements:
+    - blog-card ()
+
+  - Contact:
+    - contact info (E-mail)
+    - social media icon
+    - copyrights
+
+
+
+Extra Feature for website:
+  - loading page with icon
+  - favicon
+
+
+color-palette:
+  --medium-purple: #a682ffff;
+  --medium-slate-blue: #715affff;
+  --cornflower-blue: #5887ffff;
+  --maya-blue: #55c1ffff;
+  --prussian-blue: #0d253c;
+
+font:
+  - popppins
+  font-family: 'Poppins', sans-serif;
+
+Resources:
+  - https://css-tricks.com/snippets/css/typewriter-effect/
+  - https://jsfiddle.net/kimmobrunfeldt/k5v2d0rr/
