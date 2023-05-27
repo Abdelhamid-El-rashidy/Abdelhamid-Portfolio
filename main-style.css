@@ -185,12 +185,6 @@ body {
   color: var(--main-color);
   font-size: 14px;
 }
-.nav-bar .nav-links ul li a:hover {
-  color: var(--secondary-color);
-}
-.nav-bar .nav-links ul li .change-color:hover {
-  filter: invert(18%) sepia(100%) saturate(3284%) hue-rotate(264deg) brightness(87%) contrast(114%);
-}
 /* Nav-bar End */
 /* Hero-section start */
 .hero-section {
@@ -335,7 +329,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 2rem 0;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 .hero-content .links li a {
   font-size: 2rem;
@@ -344,7 +338,14 @@ body {
 .hero-content .links li a:hover {
   color: var(--secondary-color);
 }
-
+.hero-content .links li a img {
+  width: 32px;
+  height: 32px;
+  filter: invert(100%) sepia(2%) saturate(9%) hue-rotate(319deg) brightness(103%) contrast(103%);
+}
+.hero-content .links li a img:hover {
+  filter: invert(18%) sepia(100%) saturate(3284%) hue-rotate(264deg) brightness(87%) contrast(114%);
+}
 .hero-section .hero-img {
   width: 40%;
   height: 80%;

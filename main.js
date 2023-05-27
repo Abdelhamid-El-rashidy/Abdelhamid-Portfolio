@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', init);
 function init() {
 const txtElement = document.querySelector('.txt-type');
 // const words = JSON.parse(txtElement.getAttribute('data-words'));
-const words = ["front-end developer", "UI/UX Designer", "content writer", "High school student"];
+const words = ["front-end developer", "passionate entrepreneur", "High school student"];
 
 
 // const wait = txtElement.getAttribute('data-wait');
@@ -117,8 +117,10 @@ function myFunction(x) {
         ScrollReveal().reveal('.hero-section .hero-img', {delay: 300, origin: 'right'});
         ScrollReveal().reveal('.hero-section .hero-content .links .github', {delay: 250, origin: 'bottom'});
         ScrollReveal().reveal('.hero-section .hero-content h2', {delay: 250, origin: 'left'});
-        ScrollReveal().reveal('.hero-section .hero-content .links .codepen', {delay: 350, origin: 'bottom'});
-        ScrollReveal().reveal('.hero-section .hero-content .links .linkedin', {delay: 450, origin: 'bottom'});
+        ScrollReveal().reveal('.hero-section .hero-content .links .codeforces', {delay: 350, origin: 'bottom'});
+        ScrollReveal().reveal('.hero-section .hero-content .links .Upwork', {delay: 450, origin: 'bottom'});
+        ScrollReveal().reveal('.hero-section .hero-content .links .linkedin', {delay: 550, origin: 'bottom'});
+
         // 
         ScrollReveal().reveal('.footer-content .down-below', {delay: 100, origin: 'bottom'});
         ScrollReveal().reveal('.footer-content .links, .footer-content .to-top, .footer-content p', {delay: 150, origin: 'bottom'});

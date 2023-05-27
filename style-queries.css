@@ -204,6 +204,10 @@
   font-size: 1.3rem;
   color: #fff;
 }
+.hero-content .links li a img { 
+  width: 20.8; /* for codeforces and upwork icon */
+  height: 20.8;
+}
 /* about */
 #about .about-contianer {
   width: 90%;
