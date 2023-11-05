@@ -18,12 +18,12 @@ display: none;
   --speed-normal: 0.5s;
   --speed-fast: 0.8s;
   --color-red: #ec1840;
-  --body-color: #eeeeee;
-  --secondary-body-color: #d9e3f0;
-  --main-color:  #55c1ff;
+  --body-color: #103969;
+  --secondary-body-color: #0a192d;
+  --main-color: #55c1ff;
   --secondary-color: #7a18ec;
-  --text-color: #78798a;
-  --secondary-text-color: #525570;
+  --text-color: #d8d9e5;
+  --secondary-text-color: #f2f2f3;
   --gradient-primary: linear-gradient(270deg,#2196f3 20%,#00bcd4 80%);
   --gradient-secondary: linear-gradient(to right top, #715aff, #4376ff, #008cff, #009eff, #15aeff, #29b0ff, #36b2ff, #41b4ff, #38aaff, #3b9fff, #4794ff, #5887ff);
 }
@@ -1350,4 +1350,5 @@ html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
 .skills__item p {
   font-weight: 500;
   margin-top: 0.7rem;
+  color: var(--secondary-text-color);
 }
